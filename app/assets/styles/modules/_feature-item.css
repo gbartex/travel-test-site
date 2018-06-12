@@ -5,9 +5,10 @@
     padding-left: 94px;
   }
 
-  img {
+  &__icon {
     display: block;
     margin: 0 auto;
+
     @mixin atSmall {
       position: absolute;
       left: 0;
@@ -19,7 +20,7 @@
     font-weight: 300;
     margin-bottom: 0.8rem;
     text-align: center;
-    @mixin atSmall{
+    @mixin atSmall {
       text-align: left;
       font-size: 1.875rem;
     }

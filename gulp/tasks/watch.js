@@ -18,4 +18,5 @@ gulp.task("watch", function() {
   });
 
   watch("./app/assets/styles/**/*.css", gulp.series("styles", "cssInject"));
+  // watch("/app/assets/")
 });
